@@ -20,7 +20,7 @@ $ yarn add pixihook
 
 ```typescript
 const Component = () => {
-    const { app, Pixi } = usePixi({
+    const { app, PIXI } = usePixi({
         width: window.innerWidth,
         height: window.innerHeight,
         containerId: 'pixiContainer',
