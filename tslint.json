@@ -1,0 +1,53 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:latest",
+      "tslint-react",
+      "tslint-eslint-rules",
+      "tslint-immutable",
+      "tslint-plugin-prettier",
+      "tslint-config-prettier"
+    ],
+    "rules": {
+      "prettier": [
+        true,
+        {
+          "semi": true,
+          "singleQuote": true,
+          "parser": "typescript",
+          "trailingComma": "all",
+          "tabWidth": 2,
+          "printWidth": 100,
+          "useTabs": true,
+          "arrowParens": "always"
+        }
+      ],
+      "no-implicit-dependencies": [true, "dev"],
+      "no-submodule-imports": [
+        true,
+        "react-dom"
+      ],
+      "no-empty-interface": false,
+      "interface-name": [
+        true,
+        "always-prefix"
+      ],
+      "object-literal-sort-keys":false,
+      "quotemark": [
+        true,
+        "single",
+        "jsx-double"
+      ],
+      "indent": [
+        true,
+        "tabs",
+        2
+      ],
+      "jsx-no-lambda": false,
+      "jsx-no-multiline-js": false,
+      "member-access": false,
+      "no-console": false,
+      "no-object-literal-type-assertion": false
+    }
+  }
+  

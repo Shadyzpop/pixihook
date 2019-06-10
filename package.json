@@ -1,0 +1,24 @@
+{
+  "name": "pixihook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Shadyzpop",
+  "repository": "https://github.com/shadyzpop/pixihook",
+  "homepage": "https://github.com/shadyzpop/pixihook",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "pixi.js": "^5.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

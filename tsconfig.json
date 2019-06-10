@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "es2015",
+            "esnext.asynciterable"
+        ],
+        "rootDir": "src",
+        "outDir": "lib",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "strict": true,
+        "declaration": true,
+      
+    },
+    "include": [ "src" ],
+    "exclude": [ "node_modules", "lib", "examples" ]
+  }
+  
